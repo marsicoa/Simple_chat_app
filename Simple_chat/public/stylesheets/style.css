@@ -1,0 +1,21 @@
+.container{
+    background-color:ghostwhite;
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+.formulario{
+    width: 50%;
+}
+.btn{
+    width: 100%;
+}
+.medicine{
+    width: 50px;
+    height: auto;
+    border-radius: 3px;
+}
+h3{
+    text-align: center;
+}
