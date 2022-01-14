@@ -5,7 +5,7 @@ const http = require("http");
 const server = http.createServer(app);
 const { Server } = require("socket.io");
 const io = new Server(server);
-const router = require("./routes/productos.js");
+const router = require("./routes/index.js");
 const fetch = require("cross-fetch");
 const fs = require("fs");
 
